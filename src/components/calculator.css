@@ -1,0 +1,63 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(47, 40, 40);
+}
+input{
+    border-radius: 10px;
+    width: 18rem;
+    height: 90px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: none;
+    background-color: rgb(187, 176, 176);
+    font-size: 60px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+button{
+    padding: 10px;
+    margin: 3px;
+    width: 70px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: rgb(95, 93, 90);
+}
+.cal-btn{
+    background-color: black;
+}
+.container{
+    border: solid;
+    width: 20rem;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+    top: 120px;
+    left: 600px;
+    background-color: black;
+
+}
+
+.zero{
+    width: 145px;
+}
+
+.operation{
+    background-color: rgb(206, 138, 12);
+}
+
+.clr{
+    background-color: gray;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    border: solid gray 2px;
+    cursor: pointer;
+    
+}
